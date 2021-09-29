@@ -1,3 +1,9 @@
+/* ==UserStyle==
+@name           Gmail Immersive Dark
+@namespace      userstyles.world
+@version        1.0.0
+==/UserStyle== */
+@-moz-document domain("mail.google.com") {
 :root {
     --background-color: #0e0e0e;
 }
@@ -81,4 +87,5 @@ h3.iw, .go, .hx .hb, .ig .g3, .hI .g3, .iv .g3, .gL, .gL .h1, .aHq, .gL .gI a, .
 .a3s.aiL > div:nth-child(2) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(1) {
     margin-top: 20px;
     padding-top: 20px;
+}
 }
