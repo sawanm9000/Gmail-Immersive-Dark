@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Gmail Immersive Dark
-@version      20210929.16.22
+@version      20210929.17.28
 @namespace    userstyles.world/user/utopianknight
 @description  Dark header and immersive mail section
 @author       utopianknight
@@ -12,9 +12,14 @@
     --background-color: #0e0e0e;
 }
 
-.nH.if {
+.nH.if, .nH.aBz, .nH, .SI .G-atb {
     margin: 0;
     background: var(--background-color);
+    box-shadow: none;
+}
+
+.nH.aBy {
+    padding: 0;
 }
 
 .if > .byY, .iC .byY {
@@ -58,15 +63,20 @@
 }
 
 .a3s.aiL > div:nth-child(1) {
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .ajA {
     border: 1px solid grey;
 }
 
-.ha > .hP, .hx .gD, .gH.acX > .L3.bsQ, .iX, .amn > .ams, .aRo {
+.ha > .hP, .hx .gD, .gH.acX > .L3.bsQ, .iX, .amn > .ams, .aRo, .SI .Bn {
     color: #f2f2f2;
+}
+
+.SI .Bn {
+    border: 1px solid lightgray;
 }
 
 h3.iw, .go, .hx .hb, .ig .g3, .hI .g3, .iv .g3, .gL, .gL .h1, .aHq, .gL .gI a, .hx, .aQ6 > * {
