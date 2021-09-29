@@ -5,6 +5,8 @@ Dark header and immersive mail section
 
 # Usage
 
+Install from [userstyles.world](https://userstyles.world/style/1287/gmail-immersive-dark).
+
 Install with Stylus or equivalent:
 - [Chrome extension](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en)
 - [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
