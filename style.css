@@ -1,0 +1,86 @@
+/* ==UserStyle==
+@name           Gmail immersive dark
+@namespace      userstyles.world
+@version        1.0.0
+==/UserStyle== */
+@-moz-document domain("mail.google.com") {
+:root {
+    --background-color: #0e0e0e;
+}
+
+.nH.if {
+    margin: 0;
+}
+
+.if > .byY, .iC .byY {
+    padding: 20px 16px 8px 16px;
+}
+
+.hx .gE {
+    padding-left: 72px;
+}
+
+.gE {
+    padding: 20px 16px 0 72px;
+}
+
+.iX {
+    padding-left: 16px;
+}
+
+.hx .adn, .hx .bw, .hx .adu, .hx .adf {
+    flex-direction: column;
+}
+
+.aju {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.iY .Bu, .nr, .ajA {
+    background: var(--background-color);
+}
+
+.ii.gt {
+    background: #fff;
+    color: #1f1f1f;
+}
+
+.a3s.aiL {
+    border-top: 1px solid #2e2e2e;
+/*     background: red !important; */
+}
+
+.ajA {
+    border: 1px solid grey;
+}
+
+.ha > .hP, .hx .gD, .gH.acX > .L3.bsQ, .iX, .amn > .ams, .aRo {
+    color: #f2f2f2;
+}
+
+h3.iw, .go, .hx .hb, .ig .g3, .hI .g3, .iv .g3, .gL, .gL .h1, .aHq, .gL .gI a, .hx, .aQ6 > * {
+    color: #ababab;
+}
+
+.aQ6 > .aQ5, .aQ6 > .aQ4 {
+    color: unset !important;
+}
+
+.aRi, .aU9, .aRc {
+    background-color: unset  !important;
+    border: 1px solid #ababab; 
+}
+
+.ajy > .ajz, .bi4 > .T-KT:not(.T-KT-Jp):not(.byM)::before, .hB.T-I-J3.mK, .hB, .hA.T-I-J3, .g1.T-I-J3, .gZ.T-I-J3, .amn > .ams::before {
+    filter: invert(100%);
+}
+
+.a3s.aiL > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1),
+.a3s.aiL > div:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1),
+.m_-7845057635543218161td > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1){
+    margin-top: 20px;
+    padding-top: 20px;
+}
+}
