@@ -1,7 +1,10 @@
 /* ==UserStyle==
-@name           Gmail Immersive Dark
-@namespace      userstyles.world
-@version        1.0.0
+@name         Gmail Immersive Dark
+@version      20210929.15.39
+@namespace    userstyles.world/user/utopianknight
+@description  Dark header and immersive mail section
+@author       utopianknight
+@license      No License
 ==/UserStyle== */
 @-moz-document domain("mail.google.com") {
 :root {
