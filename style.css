@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Gmail Immersive Dark
-@version      20210929.17.28
+@version      20211011.08.53
 @namespace    userstyles.world/user/utopianknight
 @description  Dark header and immersive mail section
 @author       utopianknight
@@ -9,7 +9,7 @@
 
 @-moz-document domain("mail.google.com") {
 :root {
-    --background-color: #0e0e0e;
+    --background-color: rgba(14, 14, 14, 1);
 }
 
 .nH.if, .nH.aBz, .nH, .SI .G-atb {
@@ -48,8 +48,8 @@
     left: 0;
 }
 
-.iY .Bu, .nr, .ajA {
-    background: var(--background-color);
+.iY .Bu, .ajA, .amr > .wR.nr {
+    background: var(--background-color) !important;
 }
 
 .ii.gt {
@@ -62,7 +62,8 @@
 /*     background: red !important; */
 }
 
-.a3s.aiL > div:nth-child(1) {
+.a3s.aiL > div:nth-child(1)
+{
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -97,14 +98,19 @@ h3.iw, .go, .hx .hb, .ig .g3, .hI .g3, .iv .g3, .gL, .gL .h1, .aHq, .gL .gI a, .
 }
 
 .aCi {
-    background: white;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.6) 60%, var(--background-color) 65%, var(--background-color) 100%);
     border-radius: 999px;
 }
 
-.a3s.aiL > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1),
-.a3s.aiL > div:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1),
-.a3s.aiL > div:nth-child(2) > table:nth-child(2) {
-    margin-top: 20px;
-    padding-top: 20px;
+#\:15q_27-e, .ajn {
+    background: rgba(0,0,0,0) !important;
+}
+
+.a3s.aiL > div:nth-child(2) > table:first-of-type > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1),
+.a3s.aiL > div:nth-child(2) > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1)
+{
+    margin-top: 20px !important;
+    padding-top: 20px !important;
 }
 }
