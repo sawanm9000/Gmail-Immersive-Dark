@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Gmail Immersive Dark
-@version      20211011.08.53
+@version      20211019.07.18
 @namespace    userstyles.world/user/utopianknight
 @description  Dark header and immersive mail section
 @author       utopianknight
@@ -12,7 +12,7 @@
     --background-color: rgba(14, 14, 14, 1);
 }
 
-.nH.if, .nH.aBz, .nH, .SI .G-atb {
+.nH.if, .nH.aBz, .SI .G-atb {
     margin: 0;
     background: var(--background-color);
     box-shadow: none;
