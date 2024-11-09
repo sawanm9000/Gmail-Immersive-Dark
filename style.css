@@ -1,22 +1,62 @@
 /* ==UserStyle==
-@name         Gmail Immersive Dark
-@version      20211019.07.18
-@namespace    userstyles.world/user/utopianknight
-@description  Dark header and immersive mail section
-@author       utopianknight
-@license      No License
+@name           Gmail Immersive Dark
+@namespace      userstyles.world/user/utopianknight
+@version        20241009.00.00
+@description    Dark header and immersive mail section
+@author         utopianknight
+@homepageURL    https://github.com/sawanm9000/Gmail-Immersive-Dark
+@supportURL     https://github.com/sawanm9000/Gmail-Immersive-Dark/issues
+@license        MIT
+@preprocessor   default
+@var            color bg  "Background" #0E0E0E
 ==/UserStyle== */
 
 @-moz-document domain("mail.google.com") {
-:root {
-    --background-color: rgba(14, 14, 14, 1);
-}
 
 .nH.if, .nH.aBz, .SI .G-atb {
     margin: 0;
-    background: var(--background-color);
+    background-color: var(--bg);
     box-shadow: none;
 }
+    
+ .iY .Bu, .ajA, .ajA.SK, .amr > .wR.nr, .a98 {
+    background-color: var(--bg);
+}
+    
+.iY {
+    min-height: unset;
+}
+    
+.a98 {
+    padding-right: 0;
+}
+    
+.S4 {
+    height: calc(100vh - 64px);
+}
+    
+#\:3 {
+    padding-bottom: 16px;
+}
+    
+#\:1 > .nH > .nH {
+    position: relative;
+}
+    
+#\:1 > .nH > .nH::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    background-color: var(--bg);
+    transform: translateY(100%)
+}
+    
+    .bzp {
+        margin: 16px;
+    }
 
 .nH.aBy {
     padding: 0;
@@ -26,16 +66,27 @@
     padding: 20px 16px 8px 16px;
 }
 
+.bkK > .nH {
+    border-radius: 0;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    margin-bottom: 0;
+}
+
 .hx .gE {
     padding-left: 72px;
 }
 
 .gE {
-    padding: 20px 16px 0 72px;
+    padding: 12px 16px 6px 72px;
 }
 
 .iX {
     padding-left: 16px;
+}
+
+.a98 > .byY, .iC .byY {
+    padding: 20px 16px  8px 20px;
 }
 
 .hx .adn, .hx .bw, .hx .adu, .hx .adf {
@@ -44,12 +95,9 @@
 
 .aju {
     position: absolute;
-    top: 0;
+    top: 12px;
     left: 0;
-}
-
-.iY .Bu, .ajA, .amr > .wR.nr {
-    background: var(--background-color) !important;
+    height: unset;
 }
 
 .ii.gt {
@@ -99,7 +147,7 @@ h3.iw, .go, .hx .hb, .ig .g3, .hI .g3, .iv .g3, .gL, .gL .h1, .aHq, .gL .gI a, .
 
 .aCi {
     background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.6) 60%, var(--background-color) 65%, var(--background-color) 100%);
+    background: radial-gradient(circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.6) 60%, var(--bg) 65%, var(--bg) 100%);
     border-radius: 999px;
 }
 
@@ -113,4 +161,13 @@ h3.iw, .go, .hx .hb, .ig .g3, .hI .g3, .iv .g3, .gL, .gL .h1, .aHq, .gL .gI a, .
     margin-top: 20px !important;
     padding-top: 20px !important;
 }
+    
+    .a98 .byY {
+        padding: 20px 16px 4px 16px;
+    }
+    
+    .T-I-ax7.T-I-JE .T-I-J3 {
+        opacity: 0.5;
+    }
+
 }
